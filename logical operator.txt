@@ -1,0 +1,40 @@
+
+		// Logical operators 
+		
+				// AND  &&
+				
+				// true   &&  true  =========>  true
+				// true   &&  false =========>  false
+				// false  &&  true   =========> false
+				// false  &&  false  =========> false
+				
+				
+				System.out.println(2 == 2 && 6 != 7); 
+				System.out.println(2 != 2 && 6 != 7);
+				System.out.println(2 == 2 && 6 == 7);
+				System.out.println(2 != 2 && 6 == 7);
+				
+				
+				
+				// OR ||
+				
+				// true   ||  true  =========>  true
+				// true   ||  false =========>  true
+				// false  ||  true   =========> true
+				// false  ||  false  =========> false
+				
+				System.out.println(2 == 2 || 6 != 7); 
+				System.out.println(2 != 2 || 6 != 7);
+				System.out.println(2 == 2 || 6 == 7);
+				System.out.println(2 != 2 || 6 == 7);
+				
+					
+				// NOT !
+				
+				System.out.println(!(2==2));
+				System.out.println(!(2!=2));
+
+
+	}
+
+}
